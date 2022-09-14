@@ -1,0 +1,31 @@
+{
+  "name": "elasticsearch-optimizer",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elasticsearch",
+    "optimize",
+    "check",
+    "performance",
+    "test",
+    "elastic"
+  ],
+  "bin": {
+    "elasticsearch-optimizer": "index.js",
+    "es-optimizer": "index.js"
+  },
+  "dependencies": {
+    "async": "^2.0.1",
+    "cli-table": "^0.3.1",
+    "colors": "^1.1.2",
+    "commander": "^2.9.0",
+    "humanize": "0.0.9",
+    "moment": "^2.14.1",
+    "request": "^2.74.0",
+    "validator": "^5.6.0"
+  }
+}
